@@ -1,9 +1,10 @@
 package com.bycolor.test3;
 
 import android.os.Bundle;
-//import android.app.Activity;
 import android.view.Menu;
-import org.apache.cordova.*;
+import org.apache.cordova.DroidGap;
+
+//import android.app.Activity;
 
 public class MainActivity extends DroidGap {
 
@@ -14,8 +15,8 @@ public class MainActivity extends DroidGap {
 		super.init();
 		super.clearCache();
 		super.loadUrl("file:///android_asset/www/conectare.html");
-		//super.loadUrl("file:///android_asset/www/detalii_comanda.html");
-	}
+        super.loadUrl("file:///android_asset/www/detalii_comanda.html");
+    }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
