@@ -15,7 +15,7 @@ public class MainActivity extends DroidGap {
 		super.init();
 		super.clearCache();
 		super.loadUrl("file:///android_asset/www/conectare.html");
-        super.loadUrl("file:///android_asset/www/detalii_comanda.html");
+        //super.loadUrl("file:///android_asset/www/detalii_comanda.html");
     }
 
 	@Override
